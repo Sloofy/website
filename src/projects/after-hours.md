@@ -5,7 +5,7 @@ date: 2024-03-24T17:37:39.181Z
 summary: A quaint lil Discord community
 tags:
   - active
-  - ""
+  - discord
 ---
 # W﻿hat it is
 
