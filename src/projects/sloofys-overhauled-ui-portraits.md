@@ -1,5 +1,5 @@
 ---
-title: Sloofy's Overhauled UI Portraits
+title: Sloofys Overhauled UI Portraits
 emoji: 🎥
 date: 2024-03-24T17:47:30.136Z
 summary: Remastering Team Fortress 2's crusty SFM renderings
