@@ -7,6 +7,7 @@ const markdownFilter = require('./src/_11ty/filters/markdown-filter');
 const svgFilter = require('./src/_11ty/filters/svg-filter');
 const browserSyncConfig = require('./src/_11ty/utils/browser-sync-config');
 const { readableDateFilter, machineDateFilter } = require('./src/_11ty/filters/date-filters');
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
   // Plugins
@@ -41,6 +42,9 @@ module.exports = function (eleventyConfig) {
 
   // Allow Turbolinks to work in development mode
   eleventyConfig.setBrowserSyncConfig(browserSyncConfig);
+
+  // RSS plugin
+  eleventyConfig.addPlugin(pluginRss);
 
   return {
     templateFormats: ['md', 'njk', 'html'],
