@@ -1,13 +1,12 @@
 {
   "title": "Sloofy's Homie",
-  "description": "The small corner of the Internet holding all of Sloofy's projects and thought bubbles."
-}
-{
+  "description": "The small corner of the Internet holding all of Sloofy's projects and thought bubbles.",
   "feed": {
-      "subtitle": "Here to yap about whatever it is that comes to mind (likely games, art, tech).",
-      "filename": "feed.xml",
-      "path": "/feed/feed.xml",
-      "url": "https://sloofy.netlify.app/feed/feed.xml",
-      "id": "https://sloofy.netlify.app/"
-	},
+    "subtitle": "Here to yap about whatever it is that comes to mind (likely games, art, tech).",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://sloofy.netlify.app/feed/feed.xml",
+    "id": "https://sloofy.netlify.app/"
+	}
 }
+
